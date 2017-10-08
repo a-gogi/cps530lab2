@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+  <!-- icon and title of the page -->
+  <link rel="icon" href="http://www.freepngimg.com/thumb/cherry/3-red-cherry-png-image-download-thumb.png"/>
+  <title>CPS530 Lab #2 | Gogi, Akanksha</title>
+
+  <!-- meta info -->
+  <meta name="description" content="A few of my favorite movies.">
+  <meta name="keywords" content="Film,Movie">
+  <meta name="author" content="Akanksha Gogi">
+
+  <link href="https://fonts.googleapis.com/css?family=Crimson+Text:400,400i" rel="stylesheet">
+  <style>
+
+	body {
+		font-family:'Crimson Text', serif;
+		font-size:1em;
+		font-weight:200;
+		margin:0;
+		background-color:#fff;
+		overflow-x:hidden;
+		color:#000;
+	}
+
+	a {
+		text-decoration:none;
+		color:#000;
+	}
+
+	b, i {
+		color:#545454;
+	}
+
+	h1, h2, h3 {
+		font-weight:800;
+		font-size:2em;
+		font-family:'Helvetica', sans-serif;
+	}
+
+	h1 {font-weight:100;}
+	
+	h2 {font-weight:600;color:#fff;font-size:1.4em;background-color:#000;display:block;width:12em;padding:0.2em 1em;margin:0em;}
+	
+	header {
+	    margin:0px auto;
+	    width:100%;
+	    padding-top:2em;
+	    text-align:center;
+	}
+	
+	#info {
+	    margin:0em auto;
+	    padding:0.3em;
+	    background-color:#f9f9f9;
+	    border-radius:0.1em;
+	    border:1px solid #f0f0f0;
+	    width:17em;
+	}
+
+    .student-info {
+        display:inline-block;
+        color:#545454;
+        margin-right:3em;
+        margin-left:3em;
+        font-size:0.7em;
+        font-family:'Helvetica',sans-serif;
+    }
+    
+    #other {
+        width:25em;
+        margin:0em auto;
+    }
+    
+    #links {
+        width:8em;
+        padding-top:2em;
+        float:left;
+        margin-top:1.5em;
+        text-align:right;
+    }
+    
+    #links a {
+        display:block;
+        font-size:0.6em;
+        font-weight:bold;
+        font-family:Helvetica, sans-serif;
+        text-transform:uppercase;
+        margin-bottom:0.5em;
+    }
+    
+    #links a:hover {
+        font-style:italic;
+    }
+    
+    h1#title {
+        float:right;
+        text-align:left;
+        width:8em;
+        text-decoration:underline;
+    }
+    
+    #main {
+        margin:10em auto;
+        border-top:1px solid #f0f0f0;
+        padding-top:2.4em;
+    }
+    
+    p.description {
+        margin:0em auto;
+        width:50%;
+        max-width:80%;
+        font-size:1.1em;
+        text-indent:3em;
+    }
+    
+    span.description {
+        margin:0em auto;
+        width:70%;
+        padding:3em;
+        max-width:80%;
+        display:block;
+        font-size:1.3em;
+        text-indent:3em;
+    }
+    
+    .movie-image {
+        height:25em;
+        text-align:center;
+        width:100%;
+        max-height:20%;
+        background-color:#f9f9f9;
+        background-size:cover;
+    }
+    
+    .one {
+        background-image:url('https://wp.wwu.edu/foxycinema/files/2016/04/the-wolf-1rbpxkq.png');
+    }
+    
+    .two {
+        background-image:url('http://static.tumblr.com/oxdtjkf/1k4oxihnl/oiw.jpg');
+        background-position:center center;
+    }
+    
+    .contain {
+        position:absolute;
+        cursor:default;
+        width:100%;
+    }
+    
+     .rating {
+         width:100%;
+         font-size:2em;
+         letter-spacing:1em;
+         color:#fff;
+         margin-left:0.5em;
+         margin-top:5.5em;
+     }
+     
+     .synopsis {
+          font-size:1.4em;
+          margin:0em auto;
+          max-width:90%;
+          width:60%;
+          font-style:italic;
+          color:#fff;
+     }
+     
+     .no-select {
+         -webkit-touch-callout: none;
+         -webkit-user-select: none;
+         -khtml-user-select: none;
+         -moz-user-select: none;
+         -ms-user-select: none;
+            user-select: none;
+     }
+     
+     table.info {
+         text-align:left;
+         border-collapse:collapse;
+         margin:3em auto;
+         background-color:#f9f9f9;
+         border:1px solid #e2e2e2;
+         border-radius:0.3em;
+         width:90%;
+     }
+     
+     table.info th {
+         font-weight:bold;
+         font-size:110%;
+     }
+     
+     table.info th, table.info td{
+         padding:0.5em 1em;
+         margin:0em;
+         min-width:6em;
+     }
+     
+     .members td {
+         border-bottom:1px solid #e2e2e2;
+     }
+     
+     footer {
+         display:block;
+         text-align:center;
+         padding:3em;
+         font-family:Helvetica,sans-serif;
+     }
+  </style>
+</head>
+<body>
+	<header>
+	    <div id="info">
+		    <div class="student-info">Akanksha Gogi</div>
+		    <div class="student-info">500763340</div>
+	    </div>
+	    <div id="other">
+	    <div id="links">
+	        <a href="http://a-gogi.github.io/cps530lab2">001. home</a>
+	        <a href="http://a-gogi.github.io/cps530lab2-validate">002. validate</a>
+	        <a href="http://a-gogi.github.io/cps530lab2-technical">003. technical report</a>
+	    </div>
+	    <h1 id="title">
+	        let's talk about movies
+	    </h1>
+	    </div>
+	</header>
+	<div id="main">
+		<span class="description">Lights, camera, action! Movies have been with us for decades, ever since the invention of the camera. With the advancements of technology, there have been endless possiblities of revoluntionizing the films we consume. Let's take a look at some of the best films that I have enjoyed. Why? Because, this is <i>my</i> assignment.</span>
+		<br><br>
+		
+		<!-- FILM #001: FANTASTIC MR. FOX (2009) -->
+		<div class="film">
+	    	<h2 class="movie-name">Fantastic Mr. Fox (2009)</h2>
+	    	<div class="movie-image one">
+	    	    <div class="contain no-select">
+	    	        <div class="rating">★★★★☆</div>
+	    	        <div class="synopsis">An urbane fox cannot resist returning to his farm raiding ways and then must help his community survive the farmers' retaliation.</div>
+	    	    </div>
+	    	</div>
+	    	<br><br>
+		    <p class="description">This film was one of the few animation films that I could watch many times over and over again and still enjoy it. Instead of calling it a cult film, since it has no cult qualities, it is just a great classic to add to Wes Anderson's library.</p>
+		    <p class="description">I enjoyed that the characters had complex personalities and each were able to learn something from their experiences in the film. We see Mr. Fox struggling with living a quiet domestic life, while Mrs. Fox wanted exactly that. Ash develops a inferiority complex over his cousin Kristopherson, who is too naive to know what he wants to do with his life.</p>
+	    	<table class="info">
+	    	    <tr><th colspan="5">Fantastic Mr. Fox ⏤ some notable wins and nominations</th></tr>
+	    	    <tr>
+	    	        <th>Director</th>
+	    	        <th colspan="2">Writers</th>
+	    	        <th colspan="2">Lead Actors</th>
+	    	    </tr>
+	    	    <tr class="members">
+	    	        <td>Wes Anderson</td>
+	    	        <td>Roald Dahl</td>
+	    	        <td>Wes Anderson</td>
+		            <td>George Clooney</td>
+		            <td>Meryl Streep</td>
+		        </tr>
+		        <tr>
+		            <td>2010 Oscars ⏤ Nominated, Best Animated Feature Film of the Year</td>
+		            <td rowspan="3">Not nominated</td>
+		            <td rowspan="3">2010 Annie Awards ⏤  Won, Writing in a Feature Production</td>
+		            <td>2010 COFCA ⏤ Won, Actor of the Year</td>
+		            <td>2009 EDA Female Focus Award ⏤ Won, Actress Defying Age and Ageism</td>
+		         </tr>
+		         <tr>
+		            <td>2010 BAFTA ⏤ Nominated, Best Animated Film</td>
+		            <td rowspan="2">2010 NYFCC ⏤ Won, Best Actor</td>
+		            <td rowspan="2">2010 NSFC Award ⏤ Nominated, Best Actress</td>
+		         </tr>
+		         <tr>
+		            <td>2010 AIAFF ⏤ Won, Best Feature</td>
+		         </tr>
+	    	</table>
+	     </div>
+	     <!-- END OF FILM #001 -->
+	     
+	     <!-- FILM #002: EX-MACHINA (2015) -->
+		<div class="film">
+	    	<h2 class="movie-name">Ex-Machina (2014)</h2>
+	    	<div class="movie-image two">
+	    	    <div class="contain no-select">
+	    	        <div class="rating">★★★★☆</div>
+	    	        <div class="synopsis">A young programmer is selected to participate in a ground-breaking experiment in synthetic intelligence by evaluating the human qualities of a breath-taking humanoid A.I.</div>
+	    	    </div>
+	    	</div>
+	    	<br><br>
+		    <p class="description">I'm not a big fan of sci-fi films but this one really was different from the rest. Unlike other sci-fi genre movies, this one chose to focus on one topic and that was artifical intelligence. I really liked that they took such a simple plot, in a short time setting, and made it into so much more.</p>
+		    <p class="description">Filled with a smashing plot twist, Ex-Machina redefines modern sci-fi to really crawl into the audiences skin and ask the tough questions.</p>
+	    	<table class="info">
+	    	    <tr><th colspan="5">Ex-Machina ⏤ some notable wins and nominations</th></tr>
+	    	    <tr>
+	    	        <th>Director</th>
+	    	        <th>Writer</th>
+	    	        <th colspan="3">Lead Actors</th>
+	    	    </tr>
+	    	    <tr class="members">
+	    	        <td>Alex Garland</td>
+	    	        <td>Alex Garland</td>
+	    	        <td>Alicia Vikander</td>
+		            <td>Domhnall Gleeson</td>
+		            <td>Oscar Isaac</td>
+		        </tr>
+		        <tr>
+		            <td>2016 BSFC ⏤ Won, Best New Filmmaker</td>
+		            <td rowspan="2">2016 Oscars ⏤ Nominated, Best Writing, Original Screenplay</td>
+		            <td>2016 TFCA ⏤  Won, Best Supporting Actress</td>
+		            <td>2016 IFTA ⏤ Nominated, Best Actor in a Lead Role - Film</td>
+		            <td>2016 Gold Derby Award ⏤ Nominated, Supporting Actor</td>
+		         </tr>
+		         <tr>
+		            <td>2015 BIFA ⏤ Won, Best Director & Best Screenplay</td>
+		            <td>2016 Golden Global ⏤ Nominated, Best Supporting Actress – Motion Picture</td>
+		            <td>2016 Saturn Award ⏤ Nominated, Best Actor</td>
+		            <td>2015 FFCC Award ⏤ Nominated, Best Supporting Actor</td>
+		         </tr>
+	    	</table>
+	     </div>
+	     <!-- END OF FILM #001 -->
+    </div>
+	<footer>Information acquired from IMDB.com</footer>
+</body>
+</html>
